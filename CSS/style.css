@@ -1,0 +1,182 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+.w1{
+ display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    color: #FF2086;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #FCE4EC;
+    padding: 20px;
+    height: 5vh;
+    margin-bottom: 7px;
+}
+.main-header{
+    text-align: center;
+}
+.anonim{
+
+}
+
+.segitigas{
+margin-bottom: 20px;
+}
+.segitiga:hover{
+ background-color: #FCE4EC;
+ opacity: 0.9;
+}
+
+.segitiga:active{
+    opacity: 0.6;
+}
+
+
+ /* Gaya untuk menata gambar */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            width: 90%;
+            height: auto;
+        }
+        body {
+            background-color: #f9f9f9; /* Latar belakang */
+            font-family: Arial, sans-serif; /* Font */
+        }
+        h1 {
+            text-align: center;
+            color: #d5006d; /* Warna teks */
+        }
+
+.persegi:hover{
+ background-color: #FCE4EC;
+ opacity: 0.9;
+}
+
+.persegi:active{
+    opacity: 0.6;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FCE4EC;
+  color: #FF2086;
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+  font-weight:bold ;
+}
+
+nav a{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    color: #FF2086;
+    padding: 10px;
+    font-size: medium;
+    text-decoration: none;
+    align-items: center;
+    transition: opacity 0.15s;
+    border: 1px solid;
+    border-radius: 50px;
+    border-width: 1px;
+    margin: 0.4px
+}
+
+.segitigas:hover{
+ background-color: #FCE4EC;
+ opacity: 0.9;
+}
+
+.segitigas:active{
+    opacity: 0.6;
+}
+
+
+.jajar:hover{
+ background-color: #FCE4EC;
+ opacity: 0.9;
+}
+
+.jajar:active{
+    opacity: 0.6;
+}
+
+
+.container-footer {
+height: 10vh;
+ background-color: #7ea7ed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.segitiga-link{
+    display: flex;
+    padding-left: 20px;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 0.3px;
+}
+
+.Rumus{
+ margin-bottom: 10px;
+
+}
+
+.kelilingsegitiga{
+    margin-top: 0.6px;
+    font-weight: bold;
+}
+.luassegitiga{
+    margin-top: 0.6px;
+    font-weight: bold;
+}
+.rumus{
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.ket{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.lg{
+    font-weight: bold;
+    color:#d5006d;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    font-size: large;
+    padding-left: 10px;
+}
+.keseluruhan{
+  border: 1px solid;
+  border-color: #d5006d;
+  padding-bottom: 188.1px ;
+  
+}

@@ -41,7 +41,7 @@
        <p>S1 = Sisi B</p>
        <p>S1 = Sisi C</p>
        </div>
-       <p class="lg">LUAS SEGITIGA</p>
+       
    
        <nav>
 
@@ -51,7 +51,54 @@
      </header>
 
     <!-- Main Content -->
-      <main>
+      <main class="hai">
+<div class="containerr">
+        <div class="form-group">
+          <p class="lg">LUAS SEGITIGA</p>
+            <label for="alas">Alas (a):</label>
+            <input type="number" id="alas" placeholder="90">
+        </div>
+        <div class="form-group">
+            <label for="tinggi">Tinggi (t):</label>
+            <input type="number" id="tinggi" placeholder="90">
+        </div>
+        <div class="result">
+            <p>L = 1/2 x a x t</p>
+            <p>L = 1/2 x <span id="input-alas">90</span> x <span id="input-tinggi">90</span></p>
+            <p id="output-luas">L = 4050</p>
+        </div>
+        <div class="buttons">
+            <button id="hitung">Hitung</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="js\script.js"></script>
+
+<div class="containerrr">
+        <div class="form-group">
+          <p class="ks">KELILING SEGITIGA</p>
+            <label for="sisi1">S1:</label>
+            <input type="number" id="sisi1" placeholder="90">
+        </div>
+        <div class="form-group">
+            <label for="sisi2">S2:</label>
+            <input type="number" id="sisi2" placeholder="90">
+        </div>
+        <div>
+          <label for="sisi3">S3:</label>
+          <input type="number" id="sisi3" placeholder="90">
+        </div>
+        <div class="result">
+            <p>K = S1 + S2 + S3</p>
+            <p>K = <span id="input-sisi1">90</span> + <span id="input-sisi2">90</span> + <span id= "input-sisi3">90</span></p>
+            <p id="output-keliling">K = 280</p>
+        </div>
+        <div class="buttons">
+            <button id="hitung">Hitung</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="js\script.js"></script>
 
       </main>
 
